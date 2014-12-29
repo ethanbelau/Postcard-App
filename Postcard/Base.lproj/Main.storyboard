@@ -95,6 +95,23 @@
                                     <rect key="frame" x="8" y="72" width="369" height="100"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4y-e7-j3n">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="214" width="169" height="40"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UxT-Wj-Dkn">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="314" width="293" height="30"/>
+                                </variation>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o13-OU-olG">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -111,6 +128,8 @@
                                 <exclude reference="3z0-mD-9Ox"/>
                                 <exclude reference="S7f-Qb-2kW"/>
                                 <exclude reference="FPL-hb-2DY"/>
+                                <exclude reference="T4y-e7-j3n"/>
+                                <exclude reference="UxT-Wj-Dkn"/>
                                 <exclude reference="o13-OU-olG"/>
                             </mask>
                         </variation>
@@ -120,6 +139,8 @@
                                 <include reference="3z0-mD-9Ox"/>
                                 <include reference="S7f-Qb-2kW"/>
                                 <include reference="FPL-hb-2DY"/>
+                                <include reference="T4y-e7-j3n"/>
+                                <include reference="UxT-Wj-Dkn"/>
                                 <include reference="o13-OU-olG"/>
                             </mask>
                         </variation>
@@ -129,6 +150,7 @@
                         <outlet property="enterNameTextField" destination="3z0-mD-9Ox" id="d8f-7g-vSv"/>
                         <outlet property="mailButton" destination="S7f-Qb-2kW" id="VoB-nQ-2Vl"/>
                         <outlet property="messageLabel" destination="FPL-hb-2DY" id="hkk-02-vkR"/>
+                        <outlet property="nameLabel" destination="UxT-Wj-Dkn" id="3C9-ta-ar4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
